@@ -2,6 +2,7 @@
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
 import Image from "next/image";
+import { NeonGradientCard } from "../magicui/neon-gradient-card";
 
 export default function AboutMe() {
     return (
