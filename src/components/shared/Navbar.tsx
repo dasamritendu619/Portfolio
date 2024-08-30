@@ -38,7 +38,7 @@ export default function Navabr() {
       icon: (
         <MailCheck className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#contact",
+      href: "#contact-me",
     },
     {
       title: "GitHub",
