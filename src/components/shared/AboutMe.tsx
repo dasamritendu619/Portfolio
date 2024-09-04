@@ -38,14 +38,14 @@ export default function AboutMe() {
                 <div className="w-full lg:w-[50%]"> 
                     <p
                         className=" leading-7 p-3 max-w-[500px] mx-auto text-center my-5 text-gray-200">
-                        {"I'm a software engineer with a passion for web development and design. I enjoy creating beautiful, user-friendly websites and applications that make people's lives easier. I'm always looking for new challenges and opportunities to learn and grow as a developer. When I'm not coding, you can find me hiking, reading, playing video games, playing Tabla, playing Guitar etc. I'm also a social worker. I'm excited to see what the future holds for me in the world of web development!"}{" "}
+                        {`I'm a software engineer with a passion for web development and design. I enjoy creating beautiful, user-friendly websites and applications that make people's lives easier. I'm always looking for new challenges and opportunities to learn and grow as a developer. When I'm not coding, you can find me hiking, reading, playing video games, playing Tabla, playing Guitar etc. I'm also a social worker. I'm excited to see what the future holds for me in the world of web development!`}{" "}
                     </p>
                     <p className="text-center my-2"><strong className="font-bold mr-2 text-white">Name: </strong><span className="text-gray-200"> Amritendu Das</span></p>
                     <p className="text-center my-2"><strong className="font-bold mr-2 text-white">Age: </strong><span className="text-gray-200"> 22 years</span></p>
                     <p className="text-center my-2"><strong className="font-bold mr-2 text-white">Location: </strong><span className="text-gray-200"> West Bengal, India</span></p>
                     <p className="text-center my-2"><strong className="font-bold mr-2 text-white">Email: </strong><span className="text-gray-200"> dasamritendu619@gmail.com</span></p>
                     <p className="text-center my-2"><strong className="font-bold mr-2 text-white">Phone: </strong><span className="text-gray-200"> +91 8116926300</span></p>
-                    <p className="text-center my-2"><strong className="font-bold mr-2 text-white">Blood Group: </strong><span className="text-gray-200"> "O+"</span></p>
+                    <p className="text-center my-2"><strong className="font-bold mr-2 text-white">Blood Group: </strong><span className="text-gray-200"> O+</span></p>
                 </div>
             </div>
         </div>
