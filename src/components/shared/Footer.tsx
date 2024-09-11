@@ -7,7 +7,7 @@ function Footer() {
           <div>
             <h2 className="dark:text-white text-black text-lg font-semibold mb-4">About Me</h2>
             <p className="mb-4">
-                I am a Full Stack Developer with a passion for web technologies. I love to create
+                I am a Web Developer with a passion for web technologies. I love to create
                 interactive and beautiful web applications.
             </p>
           </div>
@@ -87,6 +87,7 @@ function Footer() {
           </div>
           <div>
             <h2 className="dark:text-white text-black text-lg font-semibold mb-4">Contact Us</h2>
+            <p>Dharinda-20</p>
             <p>Tamluk, Purba Mednipur,</p>
             <p>West Bengal- 721636, India</p>
             <p>Email:dasamritendu619@gmail.com</p>
