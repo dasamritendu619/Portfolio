@@ -2,13 +2,24 @@
 
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import axios from 'axios';
 
 function ContactMe() {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
 
   const submit = async (data:any) => {
     const { name, email, message } = data;
-    console.log(data);
+    try {
+      await axios.post("/api/sent-mail", {
+        name: name,
+        email: email,
+        message: message,
+      });
+      reset();
+      
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
